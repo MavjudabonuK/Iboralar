@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uzumaki Oilasi Iboralari</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1a1a1a; /* To'q rangli fon */
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background-color: #2c2c2c;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(255, 102, 0, 0.3);
+            max-width: 800px;
+            width: 100%;
+        }
+        h2 {
+            text-align: center;
+            color: #ff6600;
+            font-size: 28px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #ff6600;
+            padding-bottom: 10px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th {
+            background-color: #ff6600;
+            color: white;
+            padding: 15px;
+            text-align: left;
+        }
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #444;
+            vertical-align: middle;
+        }
+        .hero-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 3px solid #ff6600;
+            object-fit: cover;
+            transition: transform 0.3s;
+        }
+        .hero-img:hover {
+            transform: scale(1.2); /* Rasm ustiga borganda kattalashadi */
+        }
+        .hero-name {
+            font-weight: bold;
+            font-size: 18px;
+            color: #ffcc00;
+        }
+        .phrase {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .japanese {
+            display: block;
+            color: #aaa;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Uzumaki Clan Phrases</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Rasm</th>
+                <th>Qahramon</th>
+                <th>Ibora</th>
+                <th>Ma'nosi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="img/unnamed.jpg" alt="Naruto" class="hero-img"></td>
+                <td class="hero-name">Naruto</td>
+                <td><span class="phrase">Dattebayo</span><span class="japanese">(だってばよ)</span></td>
+                <td>"Gapimga ishon!", "Shunday deyman!"</td>
+            </tr>
+            <tr>
+                <td><img src="img/unnamed (1).jpg" alt="Kushina" class="hero-img"></td>
+                <td class="hero-name">Kushina</td>
+                <td><span class="phrase">Dattebane</span><span class="japanese">(だってばね)</span></td>
+                <td>"Tushunyapsanmi?", "Albatta!"</td>
+            </tr>
+            <tr>
+                <td><img src="img/unnamed (2).jpg" alt="Boruto" class="hero-img"></td>
+                <td class="hero-name">Boruto</td>
+                <td><span class="phrase">Dattebasa</span><span class="japanese">(だってばさ)</span></td>
+                <td>"Albatta-da!", "Xullas shunaqa!"</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
